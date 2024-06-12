@@ -1,0 +1,81 @@
+body{
+    background-color:rgb(238, 233, 227);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logo{
+   text-align: center;
+}
+.logo>img{
+    width: fit-content;
+    height:5rem;
+}
+nav ul{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+        
+}
+nav li{
+    display: inline-block;
+    padding: 20px;
+}
+.promotion{
+    background-image:url("promotion.jpg");
+    border-radius: 12px;
+    text-decoration: solid;
+    text-align:left;
+    padding: 20px;
+    color: white;
+}
+.details{
+    display: flex;
+    padding:20px;
+}
+.display>article{
+    flex:1;   
+}
+article>img{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 20px;    
+}
+article>a{
+    color: rgba(27, 229, 202, 0.82);
+    padding-bottom: 1rem;
+}
+.details>div{
+    border-style: dotted;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border-spacing: 2rem;
+}
+footer{
+    display:flex
+}
+footer>div{
+    flex: 1;
+}
+div>img{
+    width: 4rem;
+    height: 4rem;
+    padding: 20px;
+}
+div>p{
+    text-align: end;
+}
+.copy{
+    border-style:initial;
+    padding-right: 15px;
+}
